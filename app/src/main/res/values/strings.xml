@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BakeryApp</string>
+    <string name="welcome_to_discount_bakery">Welcome to Discount Bakery</string>
+    <string name="bakery_discount_site">Bakery Discount Site</string>
+    <string name="button_string">Click to get started</string>
+    <string name="title_activity_demographics">demographics</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="demo">Demographics</string>
+    <string name="discounts">Discounts</string>
+    <string name="breadclick">Breadclick</string>
+
+    <string name="income">incomelevel</string>
+    <string-array name="income_level">
+        <item>20000</item>
+        <item>21000-40000</item>
+        <item>41000-60000</item>
+</string-array>
+
+    <string name="zips">zipcode</string>
+    <string-array name="zipcodes">
+        <item>22304</item>
+        <item>75006</item>
+        <item>89067</item>
+    </string-array>
+
+    <string name="bakeds">baked</string>
+    <string-array name="products">
+        <item>Giant</item>
+        <item>Safeway</item>
+        <item>Commisary</item>
+    </string-array>
+
+    <string name="bagel">bagel</string>
+    <string name="bread">bread</string>
+    <string name="cookies">cookies</string>
+    <string name="dougnuts">dougnuts</string>
+    <string name="muffins">muffins</string>
+    <string name="pastries">pastries</string>
+</resources>

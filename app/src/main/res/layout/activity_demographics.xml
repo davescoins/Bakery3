@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--//this is the layout of the page of the app-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/demograph1"
+    android:orientation="vertical">
+<!--// I'm not sure we need a back button here, seems out of place-->
+
+    <!--//this is the Spinner for the drop down menu for the income level-->
+<!--    //income ranges from 0 to 60,000-->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="151dp"
+        android:layout_height="97dp"
+        android:onClick="onClickBack"
+        android:text="@string/breadclick" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="@string/income"
+        android:entries="@array/income_level" />
+
+<!--//this is the zipcode where the individual might choices are 22304, 75006 and 89067-->
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zips"
+        android:entries="@array/zipcodes" />
+
+<!--    //This is the choices of locations where baked goods can be bought-->
+<!--    //Giant, Safeway or the Commisary-->
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bakeds"
+        android:entries="@array/products"/>
+
+</LinearLayout>

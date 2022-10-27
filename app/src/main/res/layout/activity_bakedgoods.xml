@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--//this is the layout of the page of the app-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/bakedgoods"
+    tools:context=".Bakedgoods"
+    android:orientation="vertical">
+
+<!--//begining of view for baked goods page, Select your Goods-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your Goods"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+<!--    //changing to horizontal view-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        /*changed these from text view to buttons, made the background white, they all-->
+<!--        //have id's so you can attach them to java code*/-->
+
+<!--        //This is the bagel button-->
+    <Button
+
+        android:id="@+id/idbagel"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bagels"
+        android:contentDescription="@string/bagel"
+        android:src="@drawable/bagels"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"/>
+
+<!--        //This is the bread button-->
+        <Button
+            android:id="@+id/bread"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bread"
+            android:contentDescription="@string/bread"
+            android:src="@drawable/bread"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+
+<!--        //This is the cookie button-->
+        <Button
+            android:id="@+id/cookie"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/cookies"
+            android:contentDescription="@string/cookies"
+            android:src="@drawable/cookies"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+
+<!--    //This is the second row of buttons-->
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        //This is the doughnut button-->
+        <Button
+            android:id="@+id/idbagel"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/dougnuts"
+            android:contentDescription="@string/dougnuts"
+            android:src="@drawable/bagels"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+
+<!--        //This is the muffin button-->
+        <Button
+            android:id="@+id/bread"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/muffins"
+            android:contentDescription="@string/muffins"
+            android:src="@drawable/bread"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+
+<!--            //This is the pastries button-->
+        <Button
+            android:id="@+id/cookie"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/pastries"
+            android:contentDescription="@string/pastries"
+            android:src="@drawable/cookies"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+
+
+</LinearLayout>
+</LinearLayout>

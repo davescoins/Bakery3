@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitecake">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your Goods"
+        android:textColor="#2F8F75"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="372dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="166dp">
+
+        <!--        /*changed these from text view to buttons, made the background white, they all-->
+        <!--        //have id's so you can attach them to java code*/-->
+
+        <!--        //This is the bagel button-->
+        <Button
+
+            android:id="@+id/idbagel"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/newbagel"
+            android:contentDescription="@string/bagel"
+            android:src="@drawable/newbagel"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <!--        //This is the bread button-->
+
+        <Button
+            android:id="@+id/bread"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/newbread"
+            android:contentDescription="@string/bread"
+            android:src="@drawable/newbread"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <!--        //This is the cookie button-->
+        <Button
+            android:id="@+id/cookie"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/newcookies"
+            android:contentDescription="@string/cookies"
+            android:src="@drawable/newcookies"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+
+        <!--    //This is the second row of buttons-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagel"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="209dp"
+        android:textSize="23dp"
+        android:textColor="#CF1756"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bread"
+        android:textColor="#CF1756"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cookie"
+        android:textColor="#CF1756"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="372dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="166dp">
+
+        <Button
+            android:id="@+id/idbagel"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/newdoughnut"
+            android:contentDescription="@string/dougnuts"
+            android:src="@drawable/bagels"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply" />
+        <Button
+            android:id="@+id/bread"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/newmuffin"
+            android:contentDescription="@string/muffins"
+            android:src="@drawable/bread"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+        <Button
+            android:id="@+id/cookie"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/newpastries"
+            android:contentDescription="@string/pastries"
+            android:src="@drawable/newpastries"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dougnut"
+        android:textColor="#CF1756"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muffin"
+        android:textColor="#CF1756"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pastries"
+        android:textColor="#CF1756"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

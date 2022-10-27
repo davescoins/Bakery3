@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--/*trying to figure out how to change this to linear layout without messing up the text view and button.-->
+<!--This is the intro to the page*/-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pastries"
+    tools:context=".MainActivity">
+
+<!--    //This is Welcome to Discount Bakery-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="6dp"
+        android:text="@string/welcome_to_discount_bakery"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+<!--    //this is the background of the page-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="14dp"
+        android:background="#CDDC39"
+        android:contentDescription="@string/bakery_discount_site"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094"
+        app:srcCompat="@drawable/bakery_front_pic" />
+
+
+<!--    //this is button to get started-->
+    <Button
+        android:layout_width="138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/button_string"
+        app:backgroundTint="#2F8032"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
