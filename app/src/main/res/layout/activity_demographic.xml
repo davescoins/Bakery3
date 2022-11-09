@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/demobackground">
+    android:background="@drawable/newgrey2">
 
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Demographics"
+        android:text="Almost There"
         android:textAlignment="center"
-        android:textColor="#7A9A95"
+        android:textColor="#CEFA0000"
         android:textSize="60sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="22dp"

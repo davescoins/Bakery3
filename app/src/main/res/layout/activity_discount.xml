@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newgrey4">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todays Discounts"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#0193B7"
+        android:text="Back"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="92dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <Button
+
+            android:id="@+id/idbagel"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="7dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/newbagel"
+            android:contentDescription="@string/bagel"
+            android:src="@drawable/newbagel"
+            app:backgroundTint="#9C938787"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/bread"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/newbread"
+            android:contentDescription="@string/bread"
+            android:src="@drawable/newbread"
+            app:backgroundTint="#9C938787"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/iddoughnut"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/newdoughnut"
+            android:contentDescription="@string/dougnuts"
+            android:src="@drawable/bagels"
+            app:backgroundTint="#ABA59C9C"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/cookie"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+
+            android:layout_margin="7dp"
+            android:background="@drawable/newcookies"
+            android:contentDescription="@string/cookies"
+            android:src="@drawable/newcookies"
+            app:backgroundTint="#ABA59C9C"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/muffin"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/newmuffin"
+            android:contentDescription="@string/muffins"
+            android:src="@drawable/bread"
+            app:backgroundTint="#ABA59C9C"
+            app:backgroundTintMode="multiply" />
+
+        <Button
+            android:id="@+id/pastries"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/newpastries"
+            android:contentDescription="@string/pastries"
+            android:src="@drawable/newpastries"
+            app:backgroundTint="#ABA59C9C"
+            app:backgroundTintMode="multiply" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="478dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="172dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:backgroundTint="#A5A0A0" >
+
+            <Button
+                android:id="@+id/safeway"
+                android:layout_width="370dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/safeway"
+                android:contentDescription="@string/pastries"
+                android:src="@drawable/safeway"
+                app:backgroundTint="#ABA59C9C"
+                app:backgroundTintMode="multiply" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
