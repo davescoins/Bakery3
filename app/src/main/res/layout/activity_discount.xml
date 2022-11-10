@@ -10,11 +10,12 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Todays Discounts"
+        android:text="Today's Discounts"
         android:textColor="#FFFFFF"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:layout_width="255dp"
@@ -23,14 +24,16 @@
         android:backgroundTint="#0193B7"
         android:text="Back"
         tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="576dp" />
+        tools:layout_editor_absoluteY="576dp"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:layout_width="407dp"
         android:layout_height="92dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="80dp">
+        tools:layout_editor_absoluteY="80dp"
+        tools:ignore="MissingConstraints">
 
         <Button
 
@@ -63,7 +66,6 @@
             android:layout_margin="7dp"
             android:background="@drawable/newdoughnut"
             android:contentDescription="@string/dougnuts"
-            android:src="@drawable/bagels"
             app:backgroundTint="#ABA59C9C"
             app:backgroundTintMode="multiply" />
 
@@ -86,7 +88,6 @@
             android:layout_margin="7dp"
             android:background="@drawable/newmuffin"
             android:contentDescription="@string/muffins"
-            android:src="@drawable/bread"
             app:backgroundTint="#ABA59C9C"
             app:backgroundTintMode="multiply" />
 
@@ -109,7 +110,8 @@
         android:layout_height="478dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="172dp">
+        tools:layout_editor_absoluteY="172dp"
+        tools:ignore="MissingConstraints">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

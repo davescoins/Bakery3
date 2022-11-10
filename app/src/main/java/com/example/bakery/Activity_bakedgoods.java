@@ -9,6 +9,6 @@ public class Activity_bakedgoods extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bakedgoods);
+        setContentView(R.layout.atctivity_bakegoods);
     }
 }

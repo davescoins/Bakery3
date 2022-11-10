@@ -22,7 +22,7 @@
         <item>20000</item>
         <item>21000-40000</item>
         <item>41000-60000</item>
-</string-array>
+    </string-array>
 
     <string name="zips">zipcode</string>
     <string-array name="zipcodes">
@@ -38,10 +38,10 @@
         <item>Commisary</item>
     </string-array>
 
-    <string name="newbagel">bagel</string>
-    <string name="newbread">bread</string>
-    <string name="newcookies">cookies</string>
-    <string name="newdougnut">dougnuts</string>
-    <string name="newmuffins">muffins</string>
-    <string name="newpastries">pastries</string>
+    <string name="bagel">bagel</string>
+    <string name="bread">bread</string>
+    <string name="cookies">cookies</string>
+    <string name="dougnuts">dougnuts</string>
+    <string name="muffins">muffins</string>
+    <string name="pastries">pastries</string>
 </resources>

@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/DemoTextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Almost There"
@@ -17,10 +17,11 @@
         android:textSize="60sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="52dp" />
+        tools:layout_editor_absoluteY="52dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/DemoTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="We need more info"
@@ -28,17 +29,19 @@
         android:textSize="30sp"
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="169dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:layout_width="271dp"
         android:layout_height="452dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="260dp">
+        tools:layout_editor_absoluteY="260dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/DemoTextView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Select your Income"
@@ -54,7 +57,7 @@
             android:entries="@array/income_level" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/DemoTextView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Type your Zipcode"
