@@ -1,13 +1,14 @@
-package com.example.bakery;
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class MainActivity extends AppCompatActivity {
 
-public class Activity_main extends AppCompatActivity {
     private Button mBtnStartButton;
 
     @Override
@@ -18,7 +19,7 @@ public class Activity_main extends AppCompatActivity {
         mBtnStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Activity_main.this, Activity_bakedgoods.class);
+                Intent intent = new Intent(MainActivity.this, BakedGoods.class);
                 startActivity(intent);
             }
         });

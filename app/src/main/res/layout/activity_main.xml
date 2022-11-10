@@ -7,54 +7,54 @@
     android:background="@drawable/bakerygrey">
 
 
-  <ImageView
-      android:id="@+id/imageView2"
-      android:layout_width="361dp"
-      android:layout_height="177dp"
-      android:layout_marginTop="32dp"
-      android:layout_marginBottom="14dp"
-      android:background="#CDDC39"
-      android:contentDescription="@string/bakery_discount_site"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.32"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.025"
-      app:srcCompat="@drawable/bakery_front_pic" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="361dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="14dp"
+        android:background="#CDDC39"
+        android:contentDescription="@string/bakery_discount_site"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/bakery_front_pic" />
 
-  <LinearLayout
-      android:layout_width="229dp"
-      android:layout_height="105dp"
-      android:orientation="vertical"
-      tools:layout_editor_absoluteX="57dp"
-      tools:layout_editor_absoluteY="242dp"
-      tools:ignore="MissingConstraints">
-
-    <TextView
-        android:id="@+id/textView"
+    <LinearLayout
         android:layout_width="229dp"
         android:layout_height="105dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="6dp"
-        android:text="@string/welcome_to_discount_bakery"
-        android:textColor="#432F21"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-  </LinearLayout>
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="242dp"
+        tools:ignore="MissingConstraints">
 
-  <androidx.appcompat.widget.AppCompatButton
-      android:id="@+id/main_startButton"
-      android:layout_width="411dp"
-      android:layout_height="62dp"
-      android:text="@string/button_string"
-      android:textSize="26dp"
-      app:backgroundTint="#FF0006"
-      tools:layout_editor_absoluteX="1dp"
-      tools:layout_editor_absoluteY="563dp"
-      tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="229dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/welcome_to_discount_bakery"
+            android:textColor="#432F21"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_startButton"
+        android:layout_width="411dp"
+        android:layout_height="62dp"
+        android:text="@string/button_string"
+        android:textSize="26dp"
+        app:backgroundTint="#FF0006"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="563dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

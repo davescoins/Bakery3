@@ -1,14 +1,14 @@
-package com.example.bakery;
-
-import android.os.Bundle;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Activity_discount extends AppCompatActivity {
+import android.os.Bundle;
+
+public class BakedGoods extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_discount);
+        setContentView(R.layout.activity_baked_goods);
     }
 }
